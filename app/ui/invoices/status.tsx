@@ -1,6 +1,9 @@
 import { CheckIcon, ClockIcon } from '@heroicons/react/24/outline';
 import clsx from 'clsx';
-
+// clsx（クラスエックス） は、より動的にクラスを適用したい場合に役立つライブラリである。
+// たとえば「statusというパラメータがpendingのときだけ文字色を灰色にしたい」といった実装をしたいとする。
+// そういった場合、clsx を使用することで以下のように直接条件文の紐づけができる。
+// https://github.com/lukeed/clsx
 export default function InvoiceStatus({ status }: { status: string }) {
   return (
     <span

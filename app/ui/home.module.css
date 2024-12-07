@@ -1,0 +1,14 @@
+/*
+簡易なデザインであれば Tailwind CSS のようなライブラリを採用するのがよいが、
+より複雑なデザインに挑戦する場合、Vanilla CSS を使用したい場合がある。
+そうした場合、単に CSS ファイルを乱立させるより、 CSS Modules を使用するべき
+*/
+
+/* 指定したクラス内に黒い三角形を記述する CSS となる。 */
+.shape {
+  height: 0;
+  width: 0;
+  border-bottom: 30px solid black;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}

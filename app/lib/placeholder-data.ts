@@ -1,5 +1,7 @@
 // This file contains placeholder data that you'll be replacing with real data in the Data Fetching chapter:
 // https://nextjs.org/learn/dashboard-app/fetching-data
+
+// これはバックエンドを準備していない状態でUIを設定したり、後々データベースのセットアップをする際に使用する
 const users = [
   {
     id: '410544b2-4001-4271-9855-fec4b6a6442a',
