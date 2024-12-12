@@ -6,9 +6,10 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 
 
 # 参考
-- [日本語訳されている](https://zenn.dev/ulxsth/scraps/316bbbdabede5f)
+- [日本語訳されている~10章まで](https://zenn.dev/ulxsth/scraps/316bbbdabede5f)
 - [概要](https://zenn.dev/lancers/articles/8ae806211adde1)
 - [進め方](https://qiita.com/takubii/items/a672b491896aa7170034)
+- [](https://zenn.dev/gunjo/articles/7cbe54ebd10a68)
 
 # 動作確認
 # pnpm i
