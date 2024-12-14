@@ -7,10 +7,14 @@ import {
   UserCircleIcon,
 } from '@heroicons/react/24/outline';
 import { Button } from '@/app/ui/button';
+import { createInvoice } from '@/app/lib/actions';
 
 export default function Form({ customers }: { customers: CustomerField[] }) {
   return (
-    <form>
+    // 知っておくと良いこと:HTMLでは、action属性にURLを渡します。このURLは、フォームデータを送信する宛先（通常はAPIエンドポイント）になります。
+    // ただし、Reactでは、action属性は特別なpropと見なされます。つまり、Reactはその上に構築して、アクションを呼び出すことができます。
+    // 裏では、Server ActionsはPOST APIエンドポイントを作成します。そのため、Server Actionsを使用する場合、APIエンドポイントを手動で作成する必要はありません。
+    <form action={createInvoice}>
       <div className="rounded-md bg-gray-50 p-4 md:p-6">
         {/* Customer Name */}
         <div className="mb-4">
