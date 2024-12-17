@@ -1,3 +1,5 @@
+/* 本ファイルを　app/layout.tsxでインポートすることで、全画面に対して共通のスタイルを適用する。 */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
